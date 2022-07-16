@@ -1,0 +1,83 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap'); */
+@font-face
+{
+    font-family: Nunito;
+    src: url(/Nunito-VariableFont_wght.ttf);
+}
+body
+{
+    background-color: #212529;
+    color: #f8890a;
+    font-family: 'Nunito', sans-serif;
+}
+
+h3
+{
+    color: #C70039;
+    text-decoration: bold;
+}
+
+.nav-link
+{
+    color: #f8890a;
+    text-align: center;
+}
+
+.breadcrumb
+{
+    background-color: #212529;
+}
+.breadcrumb-item.active
+{
+    color: #f8890a;
+}
+
+a
+{
+    color: #ffffff;
+    text-decoration:none;
+}
+
+a:hover
+{
+    color: #ffffff;
+}
+
+  /* timeline styles */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: #212529;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #f8890a;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+/* resume button */
+.btn-outline-primary
+{
+    color: #f8890a;
+    border-color: #f8890a;
+}
