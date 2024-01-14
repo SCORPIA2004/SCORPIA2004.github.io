@@ -172,6 +172,7 @@ a.navbar-links.active
 img.image-table {
   width: 100%;
   border-radius: 5%;
+  border: solid 1px #dedede07;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
