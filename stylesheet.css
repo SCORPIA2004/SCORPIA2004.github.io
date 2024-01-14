@@ -231,10 +231,10 @@ td.desc-cell {
   padding-left: 35px;
   padding: 3%;
 }
-
+/* 
 td.desc-cell:hover {
   color: #ffffff;
-}
+} */
 
 tr.desc-cell {
   height: 100%;
