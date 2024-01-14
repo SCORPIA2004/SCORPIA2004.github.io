@@ -23,509 +23,523 @@
 
    </head>
    <body>
+<!-- SPLASH SCREEN -->
+   <div id="splash-screen">
+      <img src="assets/images/icon.ico" alt="Splash Screen">
+   </div>
+
 
 <!-- MAIN BODY -->
-      <table align="center">
-      <tbody>
-         <tr style="padding:0px">
-            <td style="padding-top: 5%;padding-bottom: 5%;padding-left: 5%;">
-<!-- HEADER -->
-               <table>
-                  <tbody>
-                     <tr style="padding:0px">
-                        <td style="padding:5%;width:63%;vertical-align:middle">
-                           <p style="text-align:center">
-                              <strong><name>Muhammad Shayan Usman</name></strong>
-                              <br><br>
-                              <span><i>"The act of applause is an acclamation of the soul"</i><br>~ Aoi Todo</span>
-                           </p>
-                           <!-- <p style="text-align:center"><a class="disabled" href="#">Bio</a>&nbsp;|&nbsp;<a href="mailto:mshayanalwaha@gmail.com">Email</a>&nbsp;|&nbsp;<a href="https://docs.google.com/document/d/1p9cThLEWSdVM1pfoJ0fYriDcyYJp91SF_DuYkOeY4Us/edit?usp=sharing" target="_blank">CV</a>&nbsp;|&nbsp;<a href="https://github.com/SCORPIA2004" target="_blank">Github</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/muhammed-shayan-usman/" target="_blank">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.instagram.com/scorpia2004/" target="_blank">Instagram</a>&nbsp;|&nbsp;<a href="https://medium.com/@mshayanalwaha" target="_blank">Medium</a></p> -->
-                           <p style="text-align:center"><a href="mailto:mshayanalwaha@gmail.com">Email</a>&nbsp;|&nbsp;<a href="https://docs.google.com/document/d/1p9cThLEWSdVM1pfoJ0fYriDcyYJp91SF_DuYkOeY4Us/edit?usp=sharing" target="_blank">CV</a>&nbsp;|&nbsp;<a href="https://github.com/SCORPIA2004" target="_blank">Github</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/muhammed-shayan-usman/" target="_blank">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.instagram.com/scorpia2004/" target="_blank">Instagram</a>&nbsp;|&nbsp;<a href="https://medium.com/@mshayanalwaha" target="_blank">Medium</a></p>
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-<!-- BIO -->
-               <table>
-                  <tbody>
-                     <tr style="padding:0px">
-                        <td id="pp" style="padding:2.5%;width:30%;max-width:40%">
-                          <img id="pp_img" style="width: 100%; height: 100%; border-radius: 15px;" alt="profile photo" src="assets/images/pfp.jpg" class="hoverZoomLink">
-                        </td>
-                        <td style="padding:2.5%;width:58%;vertical-align:middle; padding-left: 5%;">
-                           <p>
-                              I am a <strong>3rd-year Computer Science</strong> student at <a href="https://w3.bilkent.edu.tr/bilkent/" target="_blank">Bilkent Üniversitesi</a>. I am interested in machine learning, computer vision, and computer graphics.
-                           </p>
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-<!-- NAVBAR -->
-               <table>
-                  <tbody>
-                     <tr>
-                        <td style="padding: 3%;padding-left: 3%;padding-right: 3%;width:100%;vertical-align:middle;margin-bottom: 0; text-align: center;">
-                           <heading class="navbar-heading hidden" style="margin-right: 16px;"><a class="navbar-links" onclick="let_there_be('research')">Research</a></heading> &nbsp;&nbsp;
-                           <heading class="navbar-heading"><a class="navbar-links active" id="navbar_projects" onclick="let_there_be('projects')">Projects</a></heading> &nbsp;&nbsp;
-                           <heading class="navbar-heading"><a class="navbar-links" id="navbar_games" onclick="let_there_be('games')">Games</a></heading> &nbsp;&nbsp;
-                           <heading class="navbar-heading"><a class="navbar-links" id="navbar_exp" onclick="let_there_be('exp')">Experience</a></heading> &nbsp;&nbsp;
-                           <heading class="navbar-heading"><a class="navbar-links" id="navbar_misc" onclick="let_there_be('misc')">Misc</a></heading> &nbsp;&nbsp;
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-<!-- RESEARCH -->
-               <table class="hidden content-table" id="pubs_table">
-                  <tbody>
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
-                        <td class="image-cell">
-                           <div class="image-cell-div">
-                              <div class="two" id="nerv_image" style="opacity: 0;">
-                                 <video width="100%" height="100%" muted="" autoplay="" loop="">
-                                    <source src="assets/images/hotdog.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                 </video>
+   <table align="center">
+         <tbody>
+            <tr style="padding:0px">
+               <td style="padding-top: 5%;padding-bottom: 5%;padding-left: 5%;">
+   <!-- HEADER -->
+                  <table>
+                     <tbody>
+                        <tr style="padding:0px">
+                           <td style="padding:5%;width:63%;vertical-align:middle">
+                              <p style="text-align:center">
+                                 <strong><name>Muhammad Shayan Usman</name></strong>
+                                 <br><br>
+                                 <span><i>"The act of applause is an acclamation of the soul"</i><br>~ Aoi Todo</span>
+                              </p>
+                              <!-- <p style="text-align:center"><a class="disabled" href="#">Bio</a>&nbsp;|&nbsp;<a href="mailto:mshayanalwaha@gmail.com">Email</a>&nbsp;|&nbsp;<a href="https://docs.google.com/document/d/1p9cThLEWSdVM1pfoJ0fYriDcyYJp91SF_DuYkOeY4Us/edit?usp=sharing" target="_blank">CV</a>&nbsp;|&nbsp;<a href="https://github.com/SCORPIA2004" target="_blank">Github</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/muhammed-shayan-usman/" target="_blank">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.instagram.com/scorpia2004/" target="_blank">Instagram</a>&nbsp;|&nbsp;<a href="https://medium.com/@mshayanalwaha" target="_blank">Medium</a></p> -->
+                              <p style="text-align:center"><a href="mailto:mshayanalwaha@gmail.com">Email</a>&nbsp;|&nbsp;<a href="https://docs.google.com/document/d/1p9cThLEWSdVM1pfoJ0fYriDcyYJp91SF_DuYkOeY4Us/edit?usp=sharing" target="_blank">CV</a>&nbsp;|&nbsp;<a href="https://github.com/SCORPIA2004" target="_blank">Github</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/muhammed-shayan-usman/" target="_blank">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.instagram.com/scorpia2004/" target="_blank">Instagram</a>&nbsp;|&nbsp;<a href="https://medium.com/@mshayanalwaha" target="_blank">Medium</a></p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   <!-- BIO -->
+                  <table>
+                     <tbody>
+                        <tr style="padding:0px">
+                           <td id="pp" style="padding:2.5%;width:30%;max-width:40%">
+                           <img id="pp_img" style="width: 100%; height: 100%; border-radius: 15px;" alt="profile photo" src="assets/images/pfp.jpg" class="hoverZoomLink">
+                           </td>
+                           <td style="padding:2.5%;width:58%;vertical-align:middle; padding-left: 5%;">
+                              <p>
+                                 I am a <strong>3rd-year Computer Science</strong> student at <a href="https://w3.bilkent.edu.tr/bilkent/" target="_blank">Bilkent Üniversitesi</a>. I am interested in machine learning, computer vision, and computer graphics.
+                              </p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   <!-- NAVBAR -->
+                  <table>
+                     <tbody>
+                        <tr>
+                           <td style="padding: 3%;padding-left: 3%;padding-right: 3%;width:100%;vertical-align:middle;margin-bottom: 0; text-align: center;">
+                              <heading class="navbar-heading hidden" style="margin-right: 16px;"><a class="navbar-links" onclick="let_there_be('research')">Research</a></heading> &nbsp;&nbsp;
+                              <heading class="navbar-heading"><a class="navbar-links active" id="navbar_projects" onclick="let_there_be('projects')">Projects</a></heading> &nbsp;&nbsp;
+                              <heading class="navbar-heading"><a class="navbar-links" id="navbar_games" onclick="let_there_be('games')">Games</a></heading> &nbsp;&nbsp;
+                              <heading class="navbar-heading"><a class="navbar-links" id="navbar_exp" onclick="let_there_be('exp')">Experience</a></heading> &nbsp;&nbsp;
+                              <heading class="navbar-heading"><a class="navbar-links" id="navbar_misc" onclick="let_there_be('misc')">Misc</a></heading> &nbsp;&nbsp;
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   <!-- RESEARCH -->
+                  <table class="hidden content-table" id="pubs_table">
+                     <tbody>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
+                           <td class="image-cell">
+                              <div class="image-cell-div">
+                                 <div class="two" id="nerv_image" style="opacity: 0;">
+                                    <video width="100%" height="100%" muted="" autoplay="" loop="">
+                                       <source src="assets/images/hotdog.mp4" type="video/mp4">
+                                       Your browser does not support the video tag.
+                                    </video>
+                                 </div>
+                                 <img src="assets/images/hotdog.jpg" width="160">
                               </div>
-                              <img src="assets/images/hotdog.jpg" width="160">
-                           </div>
-                           <script type="text/javascript">
-                              function nerv_start() {
-                                document.getElementById('nerv_image').style.opacity = "1";
-                              }
-                              
-                              function nerv_stop() {
-                                document.getElementById('nerv_image').style.opacity = "0";
-                              }
-                              nerv_stop()
-                           </script>
-                        </td>
-                        <td class="desc-cell">
-                           <a >
-                              <papertitle>NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis</papertitle>
-                           </a>
-                           <br>
-                           <a href="https://people.eecs.berkeley.edu/~pratul/">Pratul Srinivasan</a>,
-                           <a href="https://boyangdeng.com/">Boyang Deng</a>,
-                           <a href="https://people.csail.mit.edu/xiuming/">Xiuming Zhang</a>,
-                           <a href="http://matthewtancik.com/">Matthew Tancik</a>,
-                           <br>
-                           <a href="https://people.eecs.berkeley.edu/~bmild/">Ben Mildenhall</a>,
-                           <strong>Jonathan T. Barron</strong>
-                           <br>
-                           <em>arXiv</em>, 2020
-                           <br>
-                           <a >project page</a> /
-                           <a href="https://www.youtube.com/watch?v=4XyDdvhhjVo">video</a> /
-                           <a href="https://arxiv.org/abs/2012.03927">arXiv</a>
-                           <p></p>
-                           <p>Using neural approximations of expensive visibility integrals lets you recover relightable NeRF-like models.</p>
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-<!-- GAMES -->               
-               <table class="hidden content-table" id="games_table">
-                  <tbody>
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
-                        <td class="image-cell">
-                           <div class="image-cell-div">
-                           <a href="https://github.com/SCORPIA2004/martian-racer" target="_blank">
-                                 <img class="image-table" src="assets/images/martian.png" width="100%">
-                              </a>   
-                           </div>
-                        </td>
-                        <td class="desc-cell">
-                           <a >
-                              <papertitle>Martian Racer</papertitle>
-                           </a>
-                           <br>
-                           <a href="https://scorpia2004.itch.io/" target="_blank">play</a> | 
-                           <a href="https://github.com/SCORPIA2004/martian-racer" target="_blank">repo</a>
-                           <p class="desc-cell-text">3D game made using Unity game engine.</p>
-                           <p class="desc-cell-text-small">C# | Unity</p>
-                        </td>
-                     </tr>
+                              <script type="text/javascript">
+                                 function nerv_start() {
+                                 document.getElementById('nerv_image').style.opacity = "1";
+                                 }
+                                 
+                                 function nerv_stop() {
+                                 document.getElementById('nerv_image').style.opacity = "0";
+                                 }
+                                 nerv_stop()
+                              </script>
+                           </td>
+                           <td class="desc-cell">
+                              <a >
+                                 <papertitle>NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis</papertitle>
+                              </a>
+                              <br>
+                              <a href="https://people.eecs.berkeley.edu/~pratul/">Pratul Srinivasan</a>,
+                              <a href="https://boyangdeng.com/">Boyang Deng</a>,
+                              <a href="https://people.csail.mit.edu/xiuming/">Xiuming Zhang</a>,
+                              <a href="http://matthewtancik.com/">Matthew Tancik</a>,
+                              <br>
+                              <a href="https://people.eecs.berkeley.edu/~bmild/">Ben Mildenhall</a>,
+                              <strong>Jonathan T. Barron</strong>
+                              <br>
+                              <em>arXiv</em>, 2020
+                              <br>
+                              <a >project page</a> /
+                              <a href="https://www.youtube.com/watch?v=4XyDdvhhjVo">video</a> /
+                              <a href="https://arxiv.org/abs/2012.03927">arXiv</a>
+                              <p></p>
+                              <p>Using neural approximations of expensive visibility integrals lets you recover relightable NeRF-like models.</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+   <!-- GAMES -->               
+                  <table class="hidden content-table" id="games_table">
+                     <tbody>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
+                           <td class="image-cell">
+                              <div class="image-cell-div">
+                              <a href="https://github.com/SCORPIA2004/martian-racer" target="_blank">
+                                    <img class="image-table" src="assets/images/martian.png" width="100%">
+                                 </a>   
+                              </div>
+                           </td>
+                           <td class="desc-cell">
+                              <a >
+                                 <papertitle>Martian Racer</papertitle>
+                              </a>
+                              <br>
+                              <a href="https://scorpia2004.itch.io/" target="_blank">play</a> | 
+                              <a href="https://github.com/SCORPIA2004/martian-racer" target="_blank">repo</a>
+                              <p class="desc-cell-text">3D game made using Unity game engine.</p>
+                              <p class="desc-cell-text-small">C# | Unity</p>
+                           </td>
+                        </tr>
 
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
-                        <td class="image-cell">
-                           <div class="image-cell-div">
-                           <a href="https://github.com/SCORPIA2004/Brainnest-Frontend/tree/main/Assignment%204%20-%20JS_2/RPS" target="_blank">
-                                 <img class="image-table" src="assets/images/rps.png" width="100%">
-                              </a>   
-                           </div>
-                        </td>
-                        <td class="desc-cell">
-                           <a >
-                              <papertitle>Rock Paper Scissors</papertitle>
-                           </a>
-                           <br>
-                           <a href="https://scorpia2004.github.io/Brainnest-Frontend/Assignment%204%20-%20JS_2/RPS/index.html" target="_blank">play</a> | 
-                           <a href="https://github.com/SCORPIA2004/Brainnest-Frontend/tree/main/Assignment%204%20-%20JS_2/RPS" target="_blank">repo</a>
-                           <p class="desc-cell-text">Simple game created with HTML, CSS, and JavaScript.</p>
-                           <p class="desc-cell-text-small">HTML | CSS | JavaScript</p>
-                        </td>
-                     </tr>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
+                           <td class="image-cell">
+                              <div class="image-cell-div">
+                              <a href="https://github.com/SCORPIA2004/Brainnest-Frontend/tree/main/Assignment%204%20-%20JS_2/RPS" target="_blank">
+                                    <img class="image-table" src="assets/images/rps.png" width="100%">
+                                 </a>   
+                              </div>
+                           </td>
+                           <td class="desc-cell">
+                              <a >
+                                 <papertitle>Rock Paper Scissors</papertitle>
+                              </a>
+                              <br>
+                              <a href="https://scorpia2004.github.io/Brainnest-Frontend/Assignment%204%20-%20JS_2/RPS/index.html" target="_blank">play</a> | 
+                              <a href="https://github.com/SCORPIA2004/Brainnest-Frontend/tree/main/Assignment%204%20-%20JS_2/RPS" target="_blank">repo</a>
+                              <p class="desc-cell-text">Simple game created with HTML, CSS, and JavaScript.</p>
+                              <p class="desc-cell-text-small">HTML | CSS | JavaScript</p>
+                           </td>
+                        </tr>
 
 
 
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
-                        <td class="image-cell">
-                           <div class="image-cell-div">
-                           <a href="https://youtu.be/ioeeD3LapDI" target="_blank">
-                                 <img class="image-table" src="assets/images/atla.png" width="100%">
-                              </a>   
-                           </div>
-                        </td>
-                        <td class="desc-cell">
-                           <a >
-                              <papertitle>Card game</papertitle>
-                           </a>
-                           <br>
-                           <a href="https://youtu.be/ioeeD3LapDI" target="_blank">video</a>
-                           <p class="desc-cell-text">Card game developed with Java and Vaadin Framework.</p>
-                           <p class="desc-cell-text-small">Java | Vaadin</p>
-                        </td>
-                     </tr>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
+                           <td class="image-cell">
+                              <div class="image-cell-div">
+                              <a href="https://youtu.be/ioeeD3LapDI" target="_blank">
+                                    <img class="image-table" src="assets/images/atla.png" width="100%">
+                                 </a>   
+                              </div>
+                           </td>
+                           <td class="desc-cell">
+                              <a >
+                                 <papertitle>Card game</papertitle>
+                              </a>
+                              <br>
+                              <a href="https://youtu.be/ioeeD3LapDI" target="_blank">video</a>
+                              <p class="desc-cell-text">Card game developed with Java and Vaadin Framework.</p>
+                              <p class="desc-cell-text-small">Java | Vaadin</p>
+                           </td>
+                        </tr>
 
 
 
-                  </tbody>
-               </table>
-<!-- PROJECTS -->
-               <table class="content-table" id="proj_table">
-                  <tbody>
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
-                        <td class="image-cell">
-                           <div class="image-cell-div">
-                              <a href="https://github.com/SCORPIA2004/CampusConnect" target="_blank">
-                                 <img class="image-table" src="assets/images/CampusConnect.png" width="100%">
-                              </a>   
-                           </div>
-                        </td>
-                        <td class="desc-cell">
-                           <a >
-                              <papertitle>CampusConnect</papertitle>
-                           </a>
-                           <br>
-                           <a href="https://campus-connect-undefined.onrender.com/" target="_blank">web app</a> /
-                           <a href="https://youtu.be/J5G0Qc4Uwq0" target="_blank">video</a> /
-                           <a href="https://github.com/SCORPIA2004/CampusConnect" target="_blank">repo</a>
-                           <p class="desc-cell-text">A social webapp  that helps connect all Bilkent students together. Combines ideas behind websites like Reddit and Letgo and makes them available exclusively for Bilkent Students.</p>
-                           <p class="desc-cell-text-small">MongoDB | ExpressJS | React | NodeJS</p>
-                        </td>
-                     </tr>
+                     </tbody>
+                  </table>
+   <!-- PROJECTS -->
+                  <table class="content-table" id="proj_table">
+                     <tbody>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
+                           <td class="image-cell">
+                              <div class="image-cell-div">
+                                 <a href="https://github.com/SCORPIA2004/CampusConnect" target="_blank">
+                                    <img class="image-table" src="assets/images/CampusConnect.png" width="100%">
+                                 </a>   
+                              </div>
+                           </td>
+                           <td class="desc-cell">
+                              <a >
+                                 <papertitle>CampusConnect</papertitle>
+                              </a>
+                              <br>
+                              <a href="https://campus-connect-undefined.onrender.com/" target="_blank">web app</a> /
+                              <a href="https://youtu.be/J5G0Qc4Uwq0" target="_blank">video</a> /
+                              <a href="https://github.com/SCORPIA2004/CampusConnect" target="_blank">repo</a>
+                              <p class="desc-cell-text">A social webapp  that helps connect all Bilkent students together. Combines ideas behind websites like Reddit and Letgo and makes them available exclusively for Bilkent Students.</p>
+                              <p class="desc-cell-text-small">MongoDB | ExpressJS | React | NodeJS</p>
+                           </td>
+                        </tr>
 
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
-                        <td class="image-cell">
-                           <div class="image-cell-div">
-                              <a href="https://github.com/SCORPIA2004/AvASys-Ground-Control-System" target="_blank">
-                                 <img class="image-table" src="assets/images/neo.png" width="100%">
-                              </a>   
-                           </div>
-                        </td>
-                        <td class="desc-cell">
-                           <a >
-                              <papertitle>AvASys v1.2.2</papertitle>
-                           </a>
-                           <br>
-                           <a href="https://github.com/SCORPIA2004/AvASys-Ground-Control-System" target="_blank">repo</a> /
-                           <a href="https://youtu.be/OwSjItP4YZ8" target="_blank">video</a>
-                           <p class="desc-cell-text">Flight controller - uses AdaFruit Ultimate GPS + Arduino</p>
-                           <p class="desc-cell-text-small">Python | Pyside6 | QtDesigner</p>
-                        </td>
-                     </tr>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
+                           <td class="image-cell">
+                              <div class="image-cell-div">
+                                 <a href="https://github.com/SCORPIA2004/AvASys-Ground-Control-System" target="_blank">
+                                    <img class="image-table" src="assets/images/neo.png" width="100%">
+                                 </a>   
+                              </div>
+                           </td>
+                           <td class="desc-cell">
+                              <a >
+                                 <papertitle>AvASys v1.2.2</papertitle>
+                              </a>
+                              <br>
+                              <a href="https://github.com/SCORPIA2004/AvASys-Ground-Control-System" target="_blank">repo</a> /
+                              <a href="https://youtu.be/OwSjItP4YZ8" target="_blank">video</a>
+                              <p class="desc-cell-text">Flight controller - uses AdaFruit Ultimate GPS + Arduino</p>
+                              <p class="desc-cell-text-small">Python | Pyside6 | QtDesigner</p>
+                           </td>
+                        </tr>
 
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
-                        <td class="image-cell">
-                           <div class="image-cell-div">
-                              <a href="https://github.com/SCORPIA2004/STARS-Autologger" target="_blank">
-                                 <img class="image-table" src="assets/images/stars.png" width="100%">
-                              </a>   
-                           </div>
-                        </td>
-                        <td class="desc-cell">
-                           <a >
-                              <papertitle>STARS Autologger</papertitle>
-                           </a>
-                           <br>
-                           <a href="https://github.com/SCORPIA2004/STARS-Autologger" target="_blank">repo</a>
-                           <p class="desc-cell-text">Script to automatically sign you in to the Bilkent STARS system and open Bilkent webmail using Python and Selenium.</p>
-                           <p class="desc-cell-text-small">Python | Selenium</p>
-                        </td>
-                     </tr>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
+                           <td class="image-cell">
+                              <div class="image-cell-div">
+                                 <a href="https://github.com/SCORPIA2004/STARS-Autologger" target="_blank">
+                                    <img class="image-table" src="assets/images/stars.png" width="100%">
+                                 </a>   
+                              </div>
+                           </td>
+                           <td class="desc-cell">
+                              <a >
+                                 <papertitle>STARS Autologger</papertitle>
+                              </a>
+                              <br>
+                              <a href="https://github.com/SCORPIA2004/STARS-Autologger" target="_blank">repo</a>
+                              <p class="desc-cell-text">Script to automatically sign you in to the Bilkent STARS system and open Bilkent webmail using Python and Selenium.</p>
+                              <p class="desc-cell-text-small">Python | Selenium</p>
+                           </td>
+                        </tr>
 
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
-                        <td class="image-cell">
-                           <div class="image-cell-div">
-                           <a href="https://github.com/SCORPIA2004/IMDb-data-multi-tool" target="_blank">
-                                 <img class="image-table" src="assets/images/imdb.png" width="100%">
-                              </a>   
-                           </div>
-                        </td>
-                        <td class="desc-cell">
-                           <a >
-                              <papertitle>IMDb data multi tool</papertitle>
-                           </a>
-                           <br>
-                           <a href="https://github.com/SCORPIA2004/IMDb-data-multi-tool" target="_blank">repo</a>
-                           <p class="desc-cell-text">Automated IMDb data scrapper using Python and Selenium webdriver.</p>
-                           <p class="desc-cell-text-small">Python | Selenium | Beautiful Soup</p>
-                        </td>
-                     </tr>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()" >
+                           <td class="image-cell">
+                              <div class="image-cell-div">
+                              <a href="https://github.com/SCORPIA2004/IMDb-data-multi-tool" target="_blank">
+                                    <img class="image-table" src="assets/images/imdb.png" width="100%">
+                                 </a>   
+                              </div>
+                           </td>
+                           <td class="desc-cell">
+                              <a >
+                                 <papertitle>IMDb data multi tool</papertitle>
+                              </a>
+                              <br>
+                              <a href="https://github.com/SCORPIA2004/IMDb-data-multi-tool" target="_blank">repo</a>
+                              <p class="desc-cell-text">Automated IMDb data scrapper using Python and Selenium webdriver.</p>
+                              <p class="desc-cell-text-small">Python | Selenium | Beautiful Soup</p>
+                           </td>
+                        </tr>
 
-                  </tbody>
-               </table>
+                     </tbody>
+                  </table>
 
-<!-- EXP -->
-               <table class="hidden content-table" id="exp_table" style="border-spacing: 0 0;">
-                  <tbody>
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
-                        <td>
-                           <table class="desc-table">
-                              <tr>
-                                 <td class="desc-cell-secondary" >
-                                    <a href="https://www.linkedin.com/in/muhammed-shayan-usman/" target="_blank">
-                                       <papertitle>→ Computer Engineering Intern</papertitle>
-                                    </a>
-                                 </td> 
-                                 <td class="desc-cell-secondary">
-                                    <p class="desc-cell-text-small">Jun 2023 - Sep 2023</p>
+   <!-- EXP -->
+                  <table class="hidden content-table" id="exp_table" style="border-spacing: 0 0;">
+                     <tbody>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
+                           <td>
+                              <table class="desc-table">
+                                 <tr>
+                                    <td class="desc-cell-secondary" >
+                                       <a href="https://www.linkedin.com/in/muhammed-shayan-usman/" target="_blank">
+                                          <papertitle>→ Computer Engineering Intern</papertitle>
+                                       </a>
+                                    </td> 
+                                    <td class="desc-cell-secondary">
+                                       <p class="desc-cell-text-small">Jun 2023 - Sep 2023</p>
 
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <td colspan="2">
-                                    <a href="https://www.nanomagnetics-inst.com/" target="_blank">NanoMagnetics Instruments</a>
-                                    <p class="desc-cell-text">• Used Tkinter and numpy to correct plots for Hysteresis Loop data<br>• Created software that obtained and portrayed data for research purposes<br>• Integrating new features into the Vibrating Sample Magnometer (VSM) software</p>
-                                    <p class="desc-cell-text-small">Python | LABView</p>
-                                 </td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">
+                                       <a href="https://www.nanomagnetics-inst.com/" target="_blank">NanoMagnetics Instruments</a>
+                                       <p class="desc-cell-text">• Used Tkinter and numpy to correct plots for Hysteresis Loop data<br>• Created software that obtained and portrayed data for research purposes<br>• Integrating new features into the Vibrating Sample Magnometer (VSM) software</p>
+                                       <p class="desc-cell-text-small">Python | LABView</p>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
 
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
-                        <td>
-                           <table class="desc-table">
-                              <tr>
-                                 <td class="desc-cell-secondary">
-                                    <a href="https://www.linkedin.com/in/muhammed-shayan-usman/" target="_blank">
-                                       <papertitle>→ SWE Team Lead</papertitle>
-                                    </a>
-                                 </td> 
-                                 <td class="desc-cell-secondary">
-                                    <p class="desc-cell-text-small">Jun 2023 - Sep 2023</p>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
+                           <td>
+                              <table class="desc-table">
+                                 <tr>
+                                    <td class="desc-cell-secondary">
+                                       <a href="https://www.linkedin.com/in/muhammed-shayan-usman/" target="_blank">
+                                          <papertitle>→ SWE Team Lead</papertitle>
+                                       </a>
+                                    </td> 
+                                    <td class="desc-cell-secondary">
+                                       <p class="desc-cell-text-small">Jun 2023 - Sep 2023</p>
 
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <td colspan="2">
-                                    <a href="https://neostellar.net/" target="_blank">NeoStellar</a>
-                                    <p class="desc-cell-text">• Working on UAV flight control system<br>• Creating auto-pilot system for unmanned UAV using OpenCV and NVIDIA Jetson Nano</p>
-                                    <p class="desc-cell-text-small">C | Python | UAV</p>
-                                 </td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">
+                                       <a href="https://neostellar.net/" target="_blank">NeoStellar</a>
+                                       <p class="desc-cell-text">• Working on UAV flight control system<br>• Creating auto-pilot system for unmanned UAV using OpenCV and NVIDIA Jetson Nano</p>
+                                       <p class="desc-cell-text-small">C | Python | UAV</p>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
 
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
-                        <td>
-                           <table class="desc-table">
-                              <tr>
-                                 <td class="desc-cell-secondary">
-                                    <a href="https://www.linkedin.com/in/muhammed-shayan-usman/" target="_blank">
-                                       <papertitle>→ Game Developer Intern</papertitle>
-                                    </a>
-                                 </td> 
-                                 <td class="desc-cell-secondary">
-                                    <p class="desc-cell-text-small">Jan 2023 - Jun 2023</p>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
+                           <td>
+                              <table class="desc-table">
+                                 <tr>
+                                    <td class="desc-cell-secondary">
+                                       <a href="https://www.linkedin.com/in/muhammed-shayan-usman/" target="_blank">
+                                          <papertitle>→ Game Developer Intern</papertitle>
+                                       </a>
+                                    </td> 
+                                    <td class="desc-cell-secondary">
+                                       <p class="desc-cell-text-small">Jan 2023 - Jun 2023</p>
 
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <td colspan="2">
-                                    <a href="https://neostellar.net/" target="_blank">Harman Games</a>
-                                    <p class="desc-cell-text">• Developing 3D games using Unity Game Engine<br>• Using C# for scripting Game object behaviours</p>
-                                    <p class="desc-cell-text-small"> C# | Unity</p>
-                                 </td>
-                              </tr>
-                           </table>
-                        </td>
-                     </tr>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">
+                                       <a href="https://neostellar.net/" target="_blank">Harman Games</a>
+                                       <p class="desc-cell-text">• Developing 3D games using Unity Game Engine<br>• Using C# for scripting Game object behaviours</p>
+                                       <p class="desc-cell-text-small"> C# | Unity</p>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
 
-                  </tbody>
-               </table>
+                     </tbody>
+                  </table>
 
 
-<!-- MISC -->
-               <table class="hidden content-table" id="misc_table">
-                  <tbody>
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
-                        <td class="image-cell">
-                           <div class="image-cell-div">
+   <!-- MISC -->
+                  <table class="hidden content-table" id="misc_table">
+                     <tbody>
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
+                           <td class="image-cell">
+                              <div class="image-cell-div">
+                                 <a href="https://youtu.be/7BfgtNm4sqc" target="_blank">
+                                    <img class="image-table" src="assets/images/hannibal.jpg" width="100%">
+                                 </a>   
+                              </div>
+                           </td>
+                           <td class="desc-cell">
                               <a href="https://youtu.be/7BfgtNm4sqc" target="_blank">
-                                 <img class="image-table" src="assets/images/hannibal.jpg" width="100%">
-                              </a>   
-                           </div>
-                        </td>
-                        <td class="desc-cell">
-                           <a href="https://youtu.be/7BfgtNm4sqc" target="_blank">
-                              <papertitle>Hannibal Barca - The Carthiginian Boogeyman</papertitle>
-                           </a>
-                           <br>
-                           <a href="https://youtu.be/7BfgtNm4sqc" target="_blank">video</a>
-                           <p class="desc-cell-text">This video analyses Hannibal Barca's campaign during the Second Punic War. In collaboration with Ahsan Yousaf.</p>
-                           <p class="desc-cell-text-small">Canva</p>
-                        </td>
-                     </tr>
+                                 <papertitle>Hannibal Barca - The Carthiginian Boogeyman</papertitle>
+                              </a>
+                              <br>
+                              <a href="https://youtu.be/7BfgtNm4sqc" target="_blank">video</a>
+                              <p class="desc-cell-text">This video analyses Hannibal Barca's campaign during the Second Punic War. In collaboration with Ahsan Yousaf.</p>
+                              <p class="desc-cell-text-small">Canva</p>
+                           </td>
+                        </tr>
 
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
-                        <td class="image-cell">
-                           <div class="image-cell-div">
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
+                           <td class="image-cell">
+                              <div class="image-cell-div">
+                                 <a href="https://github.com/SCORPIA2004/Urokodaki" target="_blank">
+                                    <img class="image-table" src="assets/images/menu.png" width="100%">
+                                 </a>   
+                              </div>
+                           </td>
+                           <td class="desc-cell">
                               <a href="https://github.com/SCORPIA2004/Urokodaki" target="_blank">
-                                 <img class="image-table" src="assets/images/menu.png" width="100%">
-                              </a>   
-                           </div>
-                        </td>
-                        <td class="desc-cell">
-                           <a href="https://github.com/SCORPIA2004/Urokodaki" target="_blank">
-                              <papertitle>Restaurant Menu</papertitle>
-                           </a>
-                           <br>
-                           <a href="https://github.com/SCORPIA2004/Urokodaki" target="_blank">repo</a> /
-                           <a href="https://youtu.be/IBYLh5a6NGQ" target="_blank">video</a>
-                           <p class="desc-cell-text">Interactive restaurant menu made with React.js and JavaScript.</p>
-                           <p class="desc-cell-text-small">React | JavaScript</p>
-                        </td>
-                     </tr>
+                                 <papertitle>Restaurant Menu</papertitle>
+                              </a>
+                              <br>
+                              <a href="https://github.com/SCORPIA2004/Urokodaki" target="_blank">repo</a> /
+                              <a href="https://youtu.be/IBYLh5a6NGQ" target="_blank">video</a>
+                              <p class="desc-cell-text">Interactive restaurant menu made with React.js and JavaScript.</p>
+                              <p class="desc-cell-text-small">React | JavaScript</p>
+                           </td>
+                        </tr>
 
-                     <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
-                        <td class="image-cell">
-                           <div class="image-cell-div">
+                        <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
+                           <td class="image-cell">
+                              <div class="image-cell-div">
+                                 <a href="https://finance-s4.herokuapp.com/" target="_blank">
+                                    <img class="image-table" src="assets/images/stocks.png" width="100%">
+                                 </a>   
+                              </div>
+                           </td>
+                           <td class="desc-cell">
                               <a href="https://finance-s4.herokuapp.com/" target="_blank">
-                                 <img class="image-table" src="assets/images/stocks.png" width="100%">
-                              </a>   
-                           </div>
-                        </td>
-                        <td class="desc-cell">
-                           <a href="https://finance-s4.herokuapp.com/" target="_blank">
-                              <papertitle>Finance S4</papertitle>
-                           </a>
-                           <br>
-                           <a href="https://finance-s4.herokuapp.com/" target="_blank">web</a>
-                           <p class="desc-cell-text">Finance app created with JavaScript + Jinja during CS50x.</p>
-                           <p class="desc-cell-text-small">JavaScript | Jinja</p>
-                        </td>
-                     </tr>
+                                 <papertitle>Finance S4</papertitle>
+                              </a>
+                              <br>
+                              <a href="https://finance-s4.herokuapp.com/" target="_blank">web</a>
+                              <p class="desc-cell-text">Finance app created with JavaScript + Jinja during CS50x.</p>
+                              <p class="desc-cell-text-small">JavaScript | Jinja</p>
+                           </td>
+                        </tr>
 
 
-                     
-                  </tbody>
-               </table>
+                        
+                     </tbody>
+                  </table>
 
-<!-- ACKNOWLEDGMENTS -->
-               <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
-                  <tbody>
-                     <tr>
-                        <td>
-                           <div style="clear:both;">
-                           <p align="right"><font size="1"><a class="footer-link" href="http://jonbarron.info" target="_blank">Thanks for the template!</a></font></p>
-                           <p align="right"><font size="1"><a class="footer-link" href="http://egrigokhan.github.io/" target="_blank">Thanks for the cool features!</a></font></p><br>
-                           </div>
-                        </td>
-                     </tr>
-                  </tbody>
-               </table>
-               
-      </tbody>
-      </table>
+   <!-- ACKNOWLEDGMENTS -->
+                  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <div style="clear:both;">
+                              <p align="right"><font size="1"><a class="footer-link" href="http://jonbarron.info" target="_blank">Thanks for the template!</a></font></p>
+                              <p align="right"><font size="1"><a class="footer-link" href="http://egrigokhan.github.io/" target="_blank">Thanks for the cool features!</a></font></p><br>
+                              </div>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  
+         </tbody>
+   </table>
 
-      <script>
-         function let_there_be(something) {
-               pubs_table = document.getElementById("pubs_table")
-               games_table = document.getElementById("games_table")
-               proj_table = document.getElementById("proj_table")
-               exp_table = document.getElementById("exp_table")
-               misc_table = document.getElementById("misc_table")
+   <script>
+      window.onload = function() {
+      setTimeout(function() {
+         var splashScreen = document.getElementById('splash-screen');
+         splashScreen.classList.add('fade-out');
+         setTimeout(function() {
+            splashScreen.style.display = 'none';
+         }, 800); // this should be the same duration as the fade-out transition
+      }, 1000);
+      };
+      function let_there_be(something) {
+            pubs_table = document.getElementById("pubs_table")
+            games_table = document.getElementById("games_table")
+            proj_table = document.getElementById("proj_table")
+            exp_table = document.getElementById("exp_table")
+            misc_table = document.getElementById("misc_table")
 
-               games_table_navbar = document.getElementById("navbar_games")
-               exp_table_navbar = document.getElementById("navbar_exp")
-               proj_table_navbar = document.getElementById("navbar_projects")
-               misc_table_navbar = document.getElementById("navbar_misc")
-               
-               
-               if (something === "research") {
-                  pubs_table.classList.remove("hidden")
-                  // pubs_table_navbar.classList.add("active")
-                  games_table.classList.add("hidden")
-                  proj_table.classList.add("hidden")
-                  exp_table.classList.add("hidden")
-                  misc_table.classList.add("hidden")
+            games_table_navbar = document.getElementById("navbar_games")
+            exp_table_navbar = document.getElementById("navbar_exp")
+            proj_table_navbar = document.getElementById("navbar_projects")
+            misc_table_navbar = document.getElementById("navbar_misc")
+            
+            
+            if (something === "research") {
+               pubs_table.classList.remove("hidden")
+               // pubs_table_navbar.classList.add("active")
+               games_table.classList.add("hidden")
+               proj_table.classList.add("hidden")
+               exp_table.classList.add("hidden")
+               misc_table.classList.add("hidden")
 
 
-               } else if (something === "games") {
-                  games_table.classList.remove("hidden")
-                  pubs_table.classList.add("hidden")
-                  proj_table.classList.add("hidden")
-                  exp_table.classList.add("hidden")
-                  misc_table.classList.add("hidden")
+            } else if (something === "games") {
+               games_table.classList.remove("hidden")
+               pubs_table.classList.add("hidden")
+               proj_table.classList.add("hidden")
+               exp_table.classList.add("hidden")
+               misc_table.classList.add("hidden")
 
-                  games_table_navbar.classList.add("active")
-                  proj_table_navbar.classList.remove("active")
-                  exp_table_navbar.classList.remove("active")
-                  misc_table_navbar.classList.remove("active")
-               } else if (something === "projects") {
-                  proj_table.classList.remove("hidden")
-                  exp_table.classList.add("hidden")
-                  pubs_table.classList.add("hidden")
-                  games_table.classList.add("hidden")
-                  misc_table.classList.add("hidden")
+               games_table_navbar.classList.add("active")
+               proj_table_navbar.classList.remove("active")
+               exp_table_navbar.classList.remove("active")
+               misc_table_navbar.classList.remove("active")
+            } else if (something === "projects") {
+               proj_table.classList.remove("hidden")
+               exp_table.classList.add("hidden")
+               pubs_table.classList.add("hidden")
+               games_table.classList.add("hidden")
+               misc_table.classList.add("hidden")
 
-                  proj_table_navbar.classList.add("active")
-                  games_table_navbar.classList.remove("active")
-                  exp_table_navbar.classList.remove("active")
-                  misc_table_navbar.classList.remove("active")
-               }
-               else if (something === "exp") {
-                  exp_table.classList.remove("hidden")
-                  proj_table.classList.add("hidden")
-                  pubs_table.classList.add("hidden")
-                  games_table.classList.add("hidden")
-                  misc_table.classList.add("hidden")
+               proj_table_navbar.classList.add("active")
+               games_table_navbar.classList.remove("active")
+               exp_table_navbar.classList.remove("active")
+               misc_table_navbar.classList.remove("active")
+            }
+            else if (something === "exp") {
+               exp_table.classList.remove("hidden")
+               proj_table.classList.add("hidden")
+               pubs_table.classList.add("hidden")
+               games_table.classList.add("hidden")
+               misc_table.classList.add("hidden")
 
-                  exp_table_navbar.classList.add("active")
-                  games_table_navbar.classList.remove("active")
-                  misc_table_navbar.classList.remove("active")
-                  proj_table_navbar.classList.remove("active")
+               exp_table_navbar.classList.add("active")
+               games_table_navbar.classList.remove("active")
+               misc_table_navbar.classList.remove("active")
+               proj_table_navbar.classList.remove("active")
 
-               }
-                else if (something === "misc") {
-                  misc_table.classList.remove("hidden")
-                  pubs_table.classList.add("hidden")
-                  games_table.classList.add("hidden")
-                  proj_table.classList.add("hidden")
-                  exp_table.classList.add("hidden")
+            }
+               else if (something === "misc") {
+               misc_table.classList.remove("hidden")
+               pubs_table.classList.add("hidden")
+               games_table.classList.add("hidden")
+               proj_table.classList.add("hidden")
+               exp_table.classList.add("hidden")
 
-                  misc_table_navbar.classList.add("active")
-                  games_table_navbar.classList.remove("active")
-                  proj_table_navbar.classList.remove("active")
-                  exp_table_navbar.classList.remove("active")
-               } 
-               else {
-                  proj_table.classList.remove("hidden")
-                  exp_table.classList.add("hidden")
-                  pubs_table.classList.add("hidden")
-                  games_table.classList.add("hidden")
-                  misc_table.classList.add("hidden")
+               misc_table_navbar.classList.add("active")
+               games_table_navbar.classList.remove("active")
+               proj_table_navbar.classList.remove("active")
+               exp_table_navbar.classList.remove("active")
+            } 
+            else {
+               proj_table.classList.remove("hidden")
+               exp_table.classList.add("hidden")
+               pubs_table.classList.add("hidden")
+               games_table.classList.add("hidden")
+               misc_table.classList.add("hidden")
 
-                  proj_table_navbar.classList.add("active")
-                  exp_table_navbar.classList.remove("active")
-                  games_table_navbar.classList.remove("active")
-                  misc_table_navbar.classList.remove("active")
-               }
-         }
-      </script>
-      
+               proj_table_navbar.classList.add("active")
+               exp_table_navbar.classList.remove("active")
+               games_table_navbar.classList.remove("active")
+               misc_table_navbar.classList.remove("active")
+            }
+      }
+   </script>
+   
    </body>
 </html>

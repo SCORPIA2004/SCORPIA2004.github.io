@@ -1,6 +1,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
+/* background-color: #1b1f27 */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
 a {
   color: #1772d0;
   text-decoration: none;
@@ -24,7 +45,9 @@ table {
   border-collapse: separate;
   margin-right: auto;
   margin-left: auto;
+  /* animation: fadeIn 1s ease-in; */
 }
+
 
 td,
 th,
@@ -158,21 +181,13 @@ img.image-table:hover
   opacity: 0.7;
 }
 
+
 table.content-table
 {
   border-spacing: 0px 50px;
-  transition: fadeIn 0.5s ease-in-out;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0.3;
-  }
 
-  to {
-    opacity: 1;
-  }
-}
 
 
 td.image-cell
@@ -241,4 +256,44 @@ td.desc-cell-secondary
 {
   width: 80%;
   text-align: left;
+}
+
+
+#splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b1f27;
+  z-index: 9999;
+  /* animation: fadeout 1s ease-in-out; */
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+#splash-screen img {
+  max-width: 100%;
+  max-height: 100%;
+  animation: pulse 1.2s ;
+}
+
+#splash-screen.fade-out {
+  opacity: 0;
+  transition: opacity 0.8s ease-out;
 }
