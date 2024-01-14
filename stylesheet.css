@@ -60,7 +60,8 @@ navbar-heading
 papertitle {
   font-family: inherit;
   font-size: 20px;
-  font-weight: 700
+  font-weight: 700;
+  /* word-wrap: break-word; */
 }
 
 name {
@@ -229,11 +230,15 @@ a.footer-link
 
 table.desc-table
 {
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%; */
+  /* padding-right: 10%; */
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  border-top: solid 1px grey;
 }
 
 td.desc-cell-secondary
 {
   width: 80%;
+  text-align: left;
 }
