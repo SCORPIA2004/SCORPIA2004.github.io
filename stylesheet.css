@@ -34,7 +34,10 @@ a:hover {
 
 body {
   font-family: Lato, sans-serif;
-  font-size: 20px;
+  /* font-family: 'Space Mono'; */
+  /* font-size: 20px; */
+  font-size: clamp(1rem, 5vw, 5rem);
+  font-weight: 600;
 }
 
 table {
@@ -78,6 +81,31 @@ navbar-heading
   font-family: inherit;
   font-size: 24px;
 }
+
+a.navbar-links
+{
+  font-size: 20px;
+  /* font-weight: 900; */
+  color: rgb(78, 78, 78);
+  text-decoration: none;
+  font-family: inherit;
+}
+
+a.navbar-links:hover
+{
+  color: #1772d0;
+  text-decoration: underline;
+}
+
+a.navbar-links.active
+{
+  /* color: #e88d2f; */
+  color: #000000;
+  font-weight: 900;
+  text-decoration: underline;
+
+}
+
 
 papertitle {
   font-family: inherit;
@@ -145,30 +173,6 @@ a {
 }
 
 
-a.navbar-links
-{
-  font-size: 20px;
-  /* font-weight: 900; */
-  color: rgb(78, 78, 78);
-  text-decoration: none;
-  font-family: inherit;
-}
-
-a.navbar-links:hover
-{
-  color: #1772d0;
-  text-decoration: underline;
-}
-
-a.navbar-links.active
-{
-  /* color: #e88d2f; */
-  color: #000000;
-  font-weight: 900;
-  text-decoration: underline;
-
-}
-
 img.image-table {
   width: 100%;
   border-radius: 5%;
@@ -202,7 +206,7 @@ img.pfp:hover {
 
 table.content-table
 {
-  border-spacing: 0px 50px;
+  border-spacing: 0px 20px;
   animation: fadeIn 0.3s ease-in;
 }
 
@@ -261,8 +265,9 @@ tr.desc-cell {
 
 p.desc-cell-text 
 {
+  font-family: Lato, sans-serif;
   font-size: 18px; 
-  text-align: justify;
+  /* text-align: justify; */
   line-height: 1.35;
 }
 
@@ -341,4 +346,17 @@ td.cell-header
 #splash-screen.fade-out {
   opacity: 0;
   transition: opacity 0.8s ease-out;
+}
+
+/* FANCY NAME */
+h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: clamp(1.5rem, 5vw, 5rem);
+  color: rgb(12, 12, 12);
+  white-space: nowrap;
+  padding: 0%;
+  /* padding: 0rem clamp(1rem, 2vw, 3rem); */
+  /* border-radius: clamp(0.4rem, 0.75vw, 1rem); */
+  margin: 0rem;
+  text-align: center;
 }

@@ -52,15 +52,16 @@
    <table align="center">
          <tbody>
             <tr style="padding:0px">
-               <td style="padding-top: 5%;padding-bottom: 5%;">
+               <td style="padding-bottom: 5%;">
    <!-- HEADER -->
                   <table>
                      <tbody>
                         <tr style="padding:0px">
                            <td class="cell-header">
+                              <h1 data-value="MUHAMMAD SHAYAN USMAN">MUHAMMAD SHAYAN USMAN</h1>
                               <p style="text-align:center">
-                                 <strong><name>Muhammad Shayan Usman</name></strong>
-                                 <br><br>
+                                 <!-- <strong><name>Muhammad Shayan Usman</name></strong> -->
+                                 <!-- <br><br> -->
                                  <span><i>"The act of applause is an acclamation of the soul"</i><br>~ Aoi Todo</span>
                               </p>
                               <!-- <p style="text-align:center"><a class="disabled" href="#">Bio</a>&nbsp;|&nbsp;<a href="mailto:mshayanalwaha@gmail.com">Email</a>&nbsp;|&nbsp;<a href="https://docs.google.com/document/d/1p9cThLEWSdVM1pfoJ0fYriDcyYJp91SF_DuYkOeY4Us/edit?usp=sharing" target="_blank">CV</a>&nbsp;|&nbsp;<a href="https://github.com/SCORPIA2004" target="_blank">Github</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/muhammed-shayan-usman/" target="_blank">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.instagram.com/scorpia2004/" target="_blank">Instagram</a>&nbsp;|&nbsp;<a href="https://medium.com/@mshayanalwaha" target="_blank">Medium</a></p> -->
@@ -253,7 +254,7 @@
                   </table>
 
    <!-- EXP -->
-                  <table class="hidden content-table" id="exp_table" style="border-spacing: 0 0;">
+                  <table class="hidden content-table" id="exp_table" style="border-spacing: 0 0;padding-left: 5%; padding-right: 5%;">
                      <tbody>
                         <tr onmouseout="nerv_stop()" onmouseover="nerv_start()">
                            <td>
@@ -504,6 +505,36 @@
                games_table_navbar.classList.remove("active")
                misc_table_navbar.classList.remove("active")
             }
+      }
+      
+      /* -- Text effect -- */
+      const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+      let interval = null;
+
+      document.querySelector("h1").onmouseover = event => {  
+      let iteration = 0;
+      
+      clearInterval(interval);
+      
+      interval = setInterval(() => {
+         event.target.innerText = event.target.innerText
+            .split("")
+            .map((letter, index) => {
+            if(index < iteration) {
+               return event.target.dataset.value[index];
+            }
+            
+            return letters[Math.floor(Math.random() * 26)]
+            })
+            .join("");
+         
+         if(iteration >= event.target.dataset.value.length){ 
+            clearInterval(interval);
+         }
+         
+         iteration += 1 / 3;
+      }, 20);
       }
    </script>
    
