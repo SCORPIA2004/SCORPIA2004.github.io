@@ -236,6 +236,9 @@ td.image-cell
   width: 100%;
   min-width: 100%;
   padding-left: 3%;
+  background: #2a2f38;
+/* Slightly lighter background for the form */
+
 }
 
 td.image-cell:hover
